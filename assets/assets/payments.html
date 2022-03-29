@@ -20,12 +20,8 @@ const queryString = window.location.search;
           "currency": "INR",
           "name":name,
           "description": "Flutter Theme",
-          //"image":image,
           "handler": function (response){
             window.parent.postMessage("SUCCESS","*");
-           //  alert(response.razorpay_payment_id);
-           //  alert(response.razorpay_order_id);
-            // alert(response.razorpay_signature)
           },
           "prefill": {
              "name": uname,
@@ -40,12 +36,12 @@ const queryString = window.location.search;
           },
           "modal": {
             "ondismiss": function(){
-               window.parent.postMessage("MODAL_CLOSED","*");   //3
+               window.parent.postMessage("MODAL_CLOSED","*");
             }
           }
        };
        var rzp1 = new Razorpay(options);
-       window.onload = function(e){  //1
+       window.onload = function(e){
           rzp1.open();
           e.preventDefault();
        }
