@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "036df996d01b1edc63c6431c1697bc30",
+  "assets/AssetManifest.json": "38eb7d59f3bd68e82f018ba86a1eb668",
 "assets/assets/fonts/CaviarDreams.ttf": "fd2d0a4d699ed411275cb14ef35dec7d",
 "assets/assets/fonts/KaushanScript.otf": "7a814d9d8801b9532895fd2e468e1a06",
 "assets/assets/fonts/MontserratRegular.ttf": "e78f1d4557fab143f353931cd44b0dcf",
@@ -21,11 +21,6 @@ const RESOURCES = {
 "assets/assets/images/logo.png": "4eaf3a8a7312b4c756762e6a1f1cd12d",
 "assets/assets/images/office.png": "1b5851e058b342ef51488500afd4cfee",
 "assets/assets/images/profile.jpg": "dbfd82aeb8c0c4479a2dc4b6de4434c0",
-"assets/assets/images/screenshot/screenshot1.png": "acbb52180d09ecf9c481427d98988a6d",
-"assets/assets/images/screenshot/screenshot2.png": "fe365e05118dd4a7b6f4763855b23fe6",
-"assets/assets/images/screenshot/screenshot3.png": "8a58e756241bfe46949278eb9926e7b0",
-"assets/assets/images/screenshot/screenshot4.png": "c78c70aaf93317be1058fe124f6721d7",
-"assets/assets/images/screenshot/screenshot5.png": "fe49c98d81567c99b6eeacc22fc53827",
 "assets/assets/images/user.png": "6c25f23b6b0ef3a4c9acb7c49aeaf11e",
 "assets/FontManifest.json": "2f062c3c657ddc7f4f4507fb69e2dffc",
 "assets/fonts/MaterialIcons-Regular.otf": "7e7a6cccddf6d7b20012a548461d5d81",
@@ -41,9 +36,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "83fec9135a9f0fabe03c0afc16ebfb1d",
 "icons/Icon-maskable-192.png": "9376bf13036822d42384dc9a67db1fc8",
 "icons/Icon-maskable-512.png": "83fec9135a9f0fabe03c0afc16ebfb1d",
-"index.html": "806c9f6bf0aa71b579facb13198ef562",
-"/": "806c9f6bf0aa71b579facb13198ef562",
-"main.dart.js": "98909cb0b5610aa0a1cffbfc4f49361e",
+"index.html": "121a0f75b315f8558b9e7b19296a5558",
+"/": "121a0f75b315f8558b9e7b19296a5558",
+"main.dart.js": "f123401e400291ecb9f734109b10b401",
 "manifest.json": "458cc332f8e612c7dc45bad3156fb132",
 "version.json": "f6b7cba0d1ac73a8915464a83a4e2826"
 };
